@@ -7,6 +7,7 @@ import Materias1er from './components/Materias-1er/Materias1er';
 import DetailsAlumno from './components/DetailsAlumnos/DetailsAlumnos';
 import Test from './components/test';
 import Login from './components/Login/Login';
+import AllAlumnos from './components/AllAlumnos/AllAlumnos';
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
         <Route path="alumnos-1er" element={<Alumnos1er />} />
         <Route path="alumnos-1er/:alumnoId" element={<DetailsAlumno />} />
         <Route path="materias-1er/:alumnoId/:materiaId" element={<DetailsAlumno />} />
+        <Route path="alumnos" element={<AllAlumnos />} />
+
 
 
 

@@ -72,6 +72,17 @@ function Panel(props) {
               <ListItemText primary='3er año' />
             </ListItemButton>
           </ListItem>
+          <Link to='alumnos'>
+
+          <ListItem  disablePadding>
+            <ListItemButton>
+              <ListItemIcon>
+              </ListItemIcon>
+              <ListItemText primary='Todos los alumnos' />
+            </ListItemButton>
+          </ListItem>
+        </Link>
+
       </List>
     </div>
   );
